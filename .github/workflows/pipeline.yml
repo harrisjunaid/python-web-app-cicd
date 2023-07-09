@@ -46,7 +46,7 @@ jobs:
     runs-on: ubuntu-18.04
     steps:
     - name: Set up GCloud
-      uses: GoogleCloudPlatform/github-actions/setup-gcloud@master
+      uses: Google-github-actions/setup-gcloud@v0.3.0
       with:
         version: '274.0.1'
         service_account_email: ${{ secrets.GCP_SERVICE_ACCT_EMAIL }}
